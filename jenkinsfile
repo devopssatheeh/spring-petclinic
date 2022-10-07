@@ -1,4 +1,5 @@
-node('labnode1') {
+node any 
+{
     stage('vcs') {
         git branch: 'jenkins_0_1', url: 'https://github.com/devopssatheeh/spring-petclinic.git'
     }
